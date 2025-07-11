@@ -28,7 +28,6 @@ nav .nav-logo{
     justify-content: space-between;
     margin: 0px 150px;
     padding: 50px;
-    /* padding-bottom: 158px; */
 }
 .signup-btn{
      color: #FFFFFF;
@@ -41,8 +40,10 @@ nav .nav-logo{
     border: none;
     border-radius: 10px;
 }
+.signup-btn:hover{
+    background-color: rgb(211, 128, 20);
+}
 .banner{
-    /* align-items: center; */
     text-align: center;
     padding: 10px 268px;
 }
@@ -63,7 +64,9 @@ nav .nav-logo{
     height: 50px;
     gap: 20px;
 }
-
+.banner-btn:hover{
+    background-color: rgb(211, 128, 20);
+}
 /* action styles */
 main .action{
     display: flex;
@@ -86,26 +89,25 @@ section div button{
     border-radius: 10px;
     padding: 12px 10px;
 }
+.action-btn:hover{
+    background-color: rgb(211, 128, 20);
+}
 main section img{
     border-radius: 48px;
 }
-
 /* productive user style */
 .productive-container{
     background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
     height: 306px;
     border-radius: 24px;
-    /* margin: 116px 159px; */
     padding: 50px 80px;
     text-align: center;
-    /* margin-left: 280px; */
     margin: 0 auto;
 }
 section div h3{
     font-size: 38px;
     font-weight: bold;
-    /* gap: 40px; */
 }
 .productive-items{
     display: flex;
@@ -114,7 +116,6 @@ section div h3{
 }
 .productive-container h1{
     color:#4E47FF;
-    /* gap: 158px; */
     font-size: 80px;
     font-weight: bold;
 }
@@ -133,7 +134,6 @@ section div h3{
     text-align: center;
     margin:137px 150px;
     margin-left: 275px;
-
 }
 section h2{
     color: rgba(37, 36, 50, 1);
@@ -145,7 +145,6 @@ section h2{
     justify-content: space-around;
     gap: 20px;
     text-align: left;
-    
 }
 .review-card{
     background-color: #FFFFFF;
@@ -178,24 +177,14 @@ section div h1{
     color: rgba(0, 0, 0, 1);
     font-size: 50px;
     font-weight: bold;
-    /* margin-top: 71px; */
 }
 .focus-btn{
     margin-bottom: 20px;
     padding: 12px 36px;
 }
-
-/* newsletter section style */
-/* section{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 350px;
-    width:40px;
-    height:692px;
-    margin-left:220px ;
-    text-align: center;
-    gap: 0 auto;
-} */
+.focus-btn:hover{
+    background-color: rgb(211, 128, 20);
+}
  .newsletter-section{
     display: flex;
     justify-content: space-between;
@@ -215,9 +204,6 @@ section div h1{
     gap: 10px;
     text-align: left
  }
- /* .newsletter-form{
-    display:;
- } */
  .news-group label{
     font-size: 18px;
     font-weight: 500;
@@ -229,6 +215,9 @@ section div h1{
 textarea,
 textarea::placeholder {
     font: 18px/1 sans-serif;
+}
+.contact-submit-btn:hover{
+    background-color: rgb(211, 128, 20);
 }
 /* footer style */
 footer{
