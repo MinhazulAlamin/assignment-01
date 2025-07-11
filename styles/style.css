@@ -186,6 +186,49 @@ section div h1{
 }
 
 /* newsletter section style */
-
-
+/* section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 350px;
+    width:40px;
+    height:692px;
+    margin-left:220px ;
+    text-align: center;
+    gap: 0 auto;
+} */
+ .newsletter-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 632px;
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+ }
+ .newsletter-h2{
+    margin: 20px;
+    font-size: 97px;
+    font-weight: bold;
+ }
+ .news-group{
+    margin-top:71px;
+    gap: 10px;
+    text-align: left
+ }
+ .newsletter-form{
+    display:;
+ }
+ .news-group label{
+    font-size: 18px;
+    font-weight: 500;
+ }
+ .news-group input{
+    font-size: 18px;
+    font-weight: 500;
+ }
+textarea,
+textarea::placeholder {
+    font: 18px/1 sans-serif;
+}
+/* footer style */
 
