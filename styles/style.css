@@ -160,4 +160,32 @@ section h2{
 }
 
 /* focus sections styles */
+.focus-section{
+    background-color: rgba(255, 255, 255, 1);
+    width:1140px;
+    height:696px;
+    margin-top:137px;
+    margin-bottom:92px;
+    margin-right:149px;
+    margin-left:151px;
+    border-radius: 14px;
+    text-align: center;
+    margin-left: 220px;
+    padding: 71px 150px;
+    gap: 20px;
+}
+section div h1{
+    color: rgba(0, 0, 0, 1);
+    font-size: 50px;
+    font-weight: bold;
+    /* margin-top: 71px; */
+}
+.focus-btn{
+    margin-bottom: 20px;
+    padding: 12px 36px;
+}
+
+/* newsletter section style */
+
+
 
